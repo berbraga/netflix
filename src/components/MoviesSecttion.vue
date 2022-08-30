@@ -1,33 +1,35 @@
 <template>
     <div>
-        <h1>componente MoviesSection.vue</h1>
-        <VueCarousel>
-            <slide v-for="movie in movies" :key="movie.id">
+        <!-- <h1>componente MoviesSection.vue</h1>ss -->
+        <Carousel :per-page="6">
+            <Slide v-for="movie in movies" :key="movie.id" >
                 <b-card
-                    title="Card Title"
-                    img-src="https://picsum.photos/600/300/?image=25"
+                    :title="movie.name"
+                    :img-src="movie.banner"
                     img-top
                     style="max-width: 20rem;"
                     class="mb-2"
                 >
                 </b-card>
-            </slide>
-        </VueCarousel>
+            </Slide>
+        </Carousel>
     </div>
 </template>
 
+
 <script>
-import VueCarousel from 'vue-carousel'
+import { Carousel, Slide } from 'vue-carousel'
 
 export default {
     components:{
-        VueCarousel
-    }
-};
+        Carousel, Slide
+    },
 
-props:{
-    movies:{
-        type:Array
+    props:{
+        movies:{
+            type:Array
+        }
     }
-}
+
+};
 </script>
