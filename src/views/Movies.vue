@@ -1,15 +1,15 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="https://www.freepnglogos.com/uploads/netflix-logo-symbol-png-1.png">
-    <HelloWorld msg="acao"/>
-    <MoviesSecttion :movies="movies"/>
-    
-    <HelloWorld msg="comedia"/>
-    <MoviesSecttion :movies="movies"/>
 
-    <HelloWorld msg="suspese"/>
-    <MoviesSecttion :movies="movies"/>
-  </div>
+<template>
+    <div>
+        <HelloWorld msg="acao"/>
+        <MoviesSecttion :movies="movies"/>
+        
+        <HelloWorld msg="comedia"/>
+        <MoviesSecttion :movies="movies"/>
+
+        <HelloWorld msg="suspese"/>
+        <MoviesSecttion :movies="movies"/>
+    </div>
 </template>
 
 <script>

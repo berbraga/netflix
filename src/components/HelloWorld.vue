@@ -4,7 +4,12 @@
   
   </div>
 </template>
-
+<style>
+  
+  h1{
+    color: rgb(233, 222, 222);
+  }
+</style>
 <script>
 export default {
   name: 'HelloWorld',

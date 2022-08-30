@@ -1,7 +1,7 @@
+
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="https://www.freepnglogos.com/uploads/netflix-logo-symbol-png-1.png">
-    <HelloWorld msg="acao"/>
+   <div>
+     <HelloWorld msg="acao"/>
     <MoviesSecttion :movies="movies"/>
     
     <HelloWorld msg="comedia"/>
@@ -9,7 +9,7 @@
 
     <HelloWorld msg="suspese"/>
     <MoviesSecttion :movies="movies"/>
-  </div>
+</div>
 </template>
 
 <script>
