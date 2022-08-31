@@ -1,6 +1,7 @@
 
 <template>
    <div>
+    <h1>series</h1>
      <HelloWorld msg="acao"/>
     <MoviesSecttion :movies="movies"/>
     
