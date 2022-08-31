@@ -10,7 +10,7 @@
 
     <HelloWorld msg="suspese"/>
     <MoviesSecttion :movies="movies"/>
-</div>
+  </div>
 </template>
 
 <script>
@@ -29,13 +29,14 @@ export default {
       movies:[
         {
           id:1,
-          name:'minions',
-          banner:"https://images.educamaisbrasil.com.br/content/noticias/minions-2-a-origem-de-gru-estreia-30-de-junho_g.jpg"
+          name:'scary movie',
+          banner:"https://www.planocritico.com/wp-content/uploads/2021/02/todo-mundo-em-panico-3-plano-critico.jpg"
         },
         {
           id:2,
-          name:'scary movie',
-          banner:"https://www.planocritico.com/wp-content/uploads/2021/02/todo-mundo-em-panico-3-plano-critico.jpg"
+          
+          name:'minions',
+          banner:"https://images.educamaisbrasil.com.br/content/noticias/minions-2-a-origem-de-gru-estreia-30-de-junho_g.jpg"
         },
         {
           id:3,

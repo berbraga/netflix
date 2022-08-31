@@ -13,6 +13,7 @@
     </div>
 </template>
 
+
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
@@ -33,14 +34,13 @@ export default {
           banner:"https://images.educamaisbrasil.com.br/content/noticias/minions-2-a-origem-de-gru-estreia-30-de-junho_g.jpg"
         },
         {
-          id:2,
-          name:'scary movie',
-          banner:"https://www.planocritico.com/wp-content/uploads/2021/02/todo-mundo-em-panico-3-plano-critico.jpg"
+          id:2,name:'mip 1',
+          banner:"https://epipoca.com.br/wp-content/uploads/2021/10/mib-19102021-1200x900.jpg"
         },
         {
           id:3,
-          name:'mip 1',
-          banner:"https://epipoca.com.br/wp-content/uploads/2021/10/mib-19102021-1200x900.jpg"
+          name:'scary movie',
+          banner:"https://www.planocritico.com/wp-content/uploads/2021/02/todo-mundo-em-panico-3-plano-critico.jpg"
         },
         {
           id:4,
